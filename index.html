@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 class="heading">Unit Converter</h1>
+      </header>
+      <div class="content">
+        <div class="len">
+          <h1 class="lenHeading">Length Converter</h1>
+        </div>
+        <!-- meters to feet -->
+        <div class="inputMenu">
+          <input
+            id="meter"
+            type="number"
+            placeholder="meters"
+            class="inputBox"
+          />
+          <button id="m2fcon" class="convBtn">Convert</button>
+          <input
+            disabled
+            id="feet"
+            type="number"
+            placeholder="feet"
+            class="inputBox"
+          />
+        </div>
+        <!-- centimeters to inches -->
+        <div class="inputMenu">
+          <input
+            id="cm"
+            type="number"
+            placeholder="Centimeters"
+            class="inputBox"
+          />
+          <button id="cm2inchcon" class="convBtn">Convert</button>
+          <input
+            id="inches"
+            disabled
+            type="number"
+            placeholder="Inches"
+            class="inputBox"
+          />
+        </div>
+
+        <!-- Weigth Converter -->
+        <div class="len">
+          <h1 class="lenHeading">Weight Converter</h1>
+        </div>
+        <!-- grams to ponds -->
+        <div class="inputMenu">
+          <input id="kg" type="number" placeholder="KG" class="inputBox" />
+          <button id="kg2poundcon" class="convBtn">Convert</button>
+          <input
+            id="Pound"
+            type="number"
+            placeholder="Pound"
+            class="inputBox"
+          />
+        </div>
+
+        <!-- Tempreture Converter -->
+        <div class="len">
+          <h1 class="lenHeading">Tempreture Converter</h1>
+        </div>
+        <!-- Celsius to Kelvin -->
+        <div class="inputMenu">
+          <input
+            id="celsius1"
+            type="number"
+            placeholder="Celsius"
+            class="inputBox"
+          />
+          <button id="c2kcon" class="convBtn">Convert</button>
+          <input
+            id="kelvin1"
+            disabled
+            type="number"
+            placeholder="Kelvin"
+            class="inputBox"
+          />
+        </div>
+        <!-- Celsius to Farenhiet -->
+        <div class="inputMenu">
+          <input
+            id="celsius2"
+            type="number"
+            placeholder="Celsius"
+            class="inputBox"
+          />
+          <button id="c2fcon" class="convBtn">Convert</button>
+          <input
+            id="Farenhiet1"
+            disabled
+            type="number"
+            placeholder="Farenhiet"
+            class="inputBox"
+          />
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

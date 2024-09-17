@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(2, 61, 61);
+  color: aliceblue;
+}
+.heading {
+  font-size: 3.3rem;
+  margin-top: 15px;
+  color: azure;
+  text-align: center;
+}
+.len {
+  text-align: center;
+}
+.lenHeading {
+  font-size: 2.3rem;
+  margin-top: 16px;
+  margin-bottom: 13px;
+  display: inline-block;
+  padding: 8px;
+  text-align: center;
+  border-radius: 23px;
+  background-color: brown;
+}
+.inputMenu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 19px;
+}
+.inputBox {
+  width: 30vw;
+  height: 5vh;
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: tan;
+  color: rgb(27, 27, 27);
+}
+.convBtn {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 6px;
+  border-color: rgb(169, 175, 180);
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.788);
+  background-color: rgb(17, 24, 18);
+}
